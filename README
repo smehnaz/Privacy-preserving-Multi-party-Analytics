@@ -1,5 +1,4 @@
-We evaluate our secure gradient descent protocol for two analytic use-cases: linear regression and binary classification
-(logistic regression) with horizontal data partitioning. We also evaluate our protocol with vertically partitioned data for the linear regression use-case. 
+We evaluate our secure gradient descent protocol for two analytic use-cases: linear regression and binary classification (logistic regression) with horizontal data partitioning. We also evaluate our protocol with vertically partitioned data for the linear regression use-case. 
 
 We compare three scenarios:
 1. Centralized trusted (CT), where the parties transfer their entire raw data to a trusted mediator to perform the analysis,
