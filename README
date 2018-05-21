@@ -1,0 +1,8 @@
+We evaluate our secure gradient descent protocol for two analytic use-cases: linear regression and binary classification
+(logistic regression) with horizontal data partitioning. We also evaluate our protocol with vertically partitioned data for the linear regression use-case. 
+
+We compare three scenarios:
+1. Centralized trusted (CT), where the parties transfer their entire raw data to a trusted mediator to perform the analysis,
+2. Distributed trusted (DT), where parties execute gradient descent locally and share intermediate results with a trusted mediator to aggregate, and
+3. Distributed untrusted (DU), where parties execute gradient descent locally and share encrypted intermediate results with an
+untrusted mediator.
